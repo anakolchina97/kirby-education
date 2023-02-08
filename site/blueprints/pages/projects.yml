@@ -1,9 +1,23 @@
 title: Projects
 
 sections:
-  projects:
+  drafts:
+    headline: Drafts
+    type: pages
+    layout: list
+    template: project
+    info: "{{ page.category }}"
+    status: drafts
+    image:
+      ratio: 5/4
+      cover: true
+  published:
+    headline: Published Projects
     type: pages
     layout: cards
+    template: project
+    info: "{{ page.category }}"
+    status: published
     image:
-      ratio: 4/5
+      ratio: 5/4
       cover: true

@@ -1,8 +1,8 @@
-Title: Creatious Labs
+Title: Abstraction
 
 ----
 
-Category: Product
+Category: Abstraction
 
 ----
 
