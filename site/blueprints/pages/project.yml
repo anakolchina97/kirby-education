@@ -6,14 +6,31 @@ columns:
       info:
         type: fields
         fields:
+          text:
+            label: Project description
+            type: textarea
+            required: true
+          year:
+            type: number
+            width: 1/2
           category:
-            type: text
+            type: select
+            options:
+              - Product Design
+              - Editorial
+              - Photo
+            width: 1/2
           client:
             type: text
+            width: 1/2
+            icon: user
           link:
             type: url
-          text:
-            type: textarea
+            width: 1/2
+          tags:
+            type: tags
+          location:
+            type: locator
 
   - width: 1/2
     sections:

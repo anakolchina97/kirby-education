@@ -9,3 +9,9 @@
   top: 20px;
   height: max-content;
 }
+
+@media (max-width: 768px) {
+  .project-layout {
+    grid-template-columns: 1fr;
+  }
+}

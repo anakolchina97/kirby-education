@@ -72,6 +72,10 @@ img {
 }
 
 .project-info-text {
+  margin-bottom: 5px;
+}
+
+.project-info-year {
   margin-bottom: 20px;
 }
 

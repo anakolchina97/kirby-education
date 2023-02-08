@@ -6,6 +6,7 @@
           <div class="project-info">
             <h1 class="title"><?= $page->title() ?></h1>
             <p class="project-info-text"><?= $page->text() ?></p>
+            <p class="project-info-year"><?= $page->year() ?> y.</p>
             <dl>
               <?php if ($page->client()->isNotEmpty()): ?>
                 <dt>Client:</dt>
@@ -24,13 +25,11 @@
           <div class="project-gallery">
             <ul>
               <?php foreach ($page->images() as $image): ?>
-                <ul>
-                  <li>
-                    <a href="<?= $image->url() ?>">
-                      <?= $image ?>
-                    </a>
-                  </li>
-                </ul>
+                <li>
+                  <a href="<?= $image->url() ?>">
+                    <?= $image ?>
+                  </a>
+                </li>
               <?php endforeach ?>
             </ul>
           </div>

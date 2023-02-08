@@ -6,15 +6,19 @@ Text: This was awesome
 
 ----
 
+Year: 2021
+
+----
+
+Category: Product Design
+
+----
+
 Client: Beautybox
 
 ----
 
 Link: https://getkirby.com/
-
-----
-
-Category: Product Design
 
 ----
 

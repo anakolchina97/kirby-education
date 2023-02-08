@@ -2,6 +2,14 @@ Title: Auto
 
 ----
 
+Text: Description
+
+----
+
+Year: 2019
+
+----
+
 Category: Auto
 
 ----
@@ -11,10 +19,6 @@ Client: auto
 ----
 
 Link: https://www.bentleymotors.com/ru/ru.html
-
-----
-
-Text: Description
 
 ----
 
