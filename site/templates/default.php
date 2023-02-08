@@ -9,16 +9,29 @@
 </head>
 <body>
   <header class="header">
-    <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a>
-    <nav>
-      <ul>
-        <?php foreach ($site->children() as $item): ?>
-          <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-        <?php endforeach; ?>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a>
+        <nav class="nav">
+          <ul class="menu">
+            <?php foreach ($site->children()->listed() as $item): ?>
+              <li class="menu__item"><a class="menu__link" href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
+            <?php endforeach; ?>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
-  <h1><?= $page->title() ?></h1>
-  <p><?= $page->text() ?></p>
+  <main>
+    <div class="container">
+      <h1 class="title"><?= $page->title() ?></h1>
+      <p class="text"><?= $page->text() ?></p>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <a href="https://t.me/<?= $site->telegram() ?>">Write to us</a>
+    </div>
+  </footer>
 </body>
 </html>
