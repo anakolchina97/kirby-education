@@ -1,9 +1,21 @@
 Title: Creatious Labs
+
 ----
+
 Text: This was awesome
+
 ----
+
 Client: Beautybox
+
 ----
+
 Link: https://getkirby.com/
+
 ----
+
 Category: Product Design
+
+----
+
+Uuid: KtxEQK27NnvcjO3T

@@ -1,0 +1,21 @@
+Title: Insects
+
+----
+
+Text: This was awesome
+
+----
+
+Client: Beautybox
+
+----
+
+Link: https://getkirby.com/
+
+----
+
+Category: Product Design
+
+----
+
+Uuid: xyK3ADesqT80gdGN
