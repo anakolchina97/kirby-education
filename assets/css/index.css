@@ -66,3 +66,24 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
+
+.project-info {
+  margin-bottom: 30px;
+}
+
+.project-info-text {
+  margin-bottom: 20px;
+}
+
+dt {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+dd {
+  margin-bottom: 10px;
+}
+
+dd:last-child {
+  margin-bottom: 0;
+}

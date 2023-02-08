@@ -2,4 +2,8 @@ Title: Creatious Labs
 ----
 Text: This was awesome
 ----
-Year: 2023
+Client: Beautybox
+----
+Link: https://getkirby.com/
+----
+Category: Product Design
