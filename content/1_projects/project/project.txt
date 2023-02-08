@@ -1,5 +1,0 @@
-Title: Project
-----
-Intro: This was awesome
-----
-Year: 2023

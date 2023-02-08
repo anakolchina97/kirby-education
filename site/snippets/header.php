@@ -12,13 +12,7 @@
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="<?= $site->url() ?>"><?= $site->title() ?></a>
-        <nav class="nav">
-          <ul class="menu">
-            <?php foreach ($site->children()->listed() as $item): ?>
-              <li class="menu__item"><a class="menu__link" href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
-            <?php endforeach; ?>
-          </ul>
-        </nav>
+        <?php snippet('nav') ?>
       </div>
     </div>
   </header>
