@@ -2,7 +2,7 @@ Title: Creatious Labs
 
 ----
 
-Text: This was awesome
+Category: Product
 
 ----
 
@@ -14,7 +14,7 @@ Link: https://getkirby.com/
 
 ----
 
-Category: Product Design
+Text: This was awesome
 
 ----
 
