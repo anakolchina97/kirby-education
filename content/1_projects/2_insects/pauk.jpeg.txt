@@ -1,5 +1,9 @@
-Alt: This shows something
+Sort: 3
+
 ----
-Caption: 
+
+Uuid: jKWiWLrFSAk56ytR
+
 ----
-Photographer:
+
+Template: gallery-image

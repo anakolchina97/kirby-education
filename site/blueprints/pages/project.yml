@@ -37,5 +37,6 @@ columns:
       gallery:
         type: files
         layout: cards
+        template: gallery-image
         image:
           ration: 1/1

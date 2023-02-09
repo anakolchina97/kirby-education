@@ -1,13 +1,9 @@
-Alt: This shows something
+Sort: 4
 
 ----
 
-Caption: 
+Uuid: Xbwsu8lbunLgCWWx
 
 ----
 
-Photographer: 
-
-----
-
-Uuid: kpeXlcOKYRrZu2ly
+Template: gallery-image
