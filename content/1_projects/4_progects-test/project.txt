@@ -1,0 +1,40 @@
+Title: Progects test
+
+----
+
+Text: фывфывфыв
+
+----
+
+Year: 2023
+
+----
+
+Category: Animals
+
+----
+
+Client: Davud Zohreh
+
+----
+
+Link: 
+
+----
+
+Tags: кошка
+
+----
+
+Location:
+
+lat: 57.6263877
+lon: 39.8933705
+city: Yaroslavl
+region: Yaroslavl Oblast
+country: Russia
+osm: 1701436
+
+----
+
+Uuid: gTefvPqHABKLqT7p

@@ -4,7 +4,7 @@ return function ($page) {
   $unfiltered = collection('projects');
   $projects = $unfiltered->when($filterBy, function($filterBy) {
     return $this->filterBy('category', $filterBy);
-  })->paginate(1);
+  })->paginate(2);
   $pagination = $projects->pagination();
   $filters = $unfiltered->pluck('category', null, true);
 

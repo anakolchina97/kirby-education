@@ -6,7 +6,7 @@
       <span class="controls-disabled">&larr;</span>
     <?php endif ?>
 
-    <span>Page <?= $pagination->page() ?> of <?= $pagination->total() ?> </span>
+    <span>Page <?= $pagination->page() ?> of <?= $pagination->total() / $pagination->limit(2) ?> </span>
 
     <?php if ($pagination->hasNextPage()): ?>
       <a href="<?= $pagination->nextPageUrl() ?>" aria-label="Go to next page">&rarr;</a>
