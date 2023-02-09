@@ -58,7 +58,7 @@ a {
 
 .footer {
   margin-top: auto;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 img {
@@ -69,6 +69,12 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project-info {
@@ -109,9 +115,20 @@ dd:last-child {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.filter::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.filter {
+  overflow: -moz-scrollbars-none;
 }
 
 .filter__item {
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   min-width: 50px;
