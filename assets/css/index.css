@@ -21,6 +21,10 @@ a {
   font-weight: 400;
 }
 
+.text {
+  margin-bottom: 20px;
+}
+
 .container {
   max-width: 1400px;
   width: 100%;

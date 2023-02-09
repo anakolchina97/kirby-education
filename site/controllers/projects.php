@@ -1,7 +1,7 @@
 <?php
 return function ($page) {
   $filterBy = get('filter');
-  $unfiltered = $page->children()->listed();
+  $unfiltered = collection('projects');
   $projects = $unfiltered->when($filterBy, function($filterBy) {
     return $this->filterBy('category', $filterBy);
   })->paginate(1);
