@@ -91,3 +91,12 @@ dd {
 dd:last-child {
   margin-bottom: 0;
 }
+
+.controls {
+  margin-top: 30px;
+}
+
+.controls-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
