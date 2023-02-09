@@ -10,7 +10,7 @@ Year: 2021
 
 ----
 
-Category: Product Design
+Category: Animals
 
 ----
 
@@ -19,6 +19,14 @@ Client: Beautybox
 ----
 
 Link: https://getkirby.com/
+
+----
+
+Tags: 
+
+----
+
+Location: 
 
 ----
 

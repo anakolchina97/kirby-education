@@ -100,3 +100,20 @@ dd:last-child {
   opacity: 0.3;
   pointer-events: none;
 }
+
+.filter {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filter__item {
+  display: flex;
+  justify-content: center;
+  min-width: 50px;
+  background: #212529;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}

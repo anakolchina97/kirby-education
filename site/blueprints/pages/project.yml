@@ -17,8 +17,9 @@ columns:
             type: select
             options:
               - Product Design
-              - Editorial
+              - Animals
               - Photo
+              - Art
             width: 1/2
           client:
             type: text

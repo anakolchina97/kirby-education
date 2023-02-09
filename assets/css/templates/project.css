@@ -11,6 +11,9 @@
 }
 
 @media (max-width: 768px) {
+  .project-info {
+    position: static;
+  }
   .project-layout {
     grid-template-columns: 1fr;
   }
